@@ -1,0 +1,50 @@
+
+div{
+	width: 600px;
+	margin: 0 auto;
+}
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button{
+	display: inline-block;
+	padding: 8px 10px;
+	text-decoration: none;
+	color: #000;
+	border-radius: 3px;
+	cursor: pointer;
+	transition:  all .3s;
+	
+}
+
+.steal{
+	background-color: #009688;
+	color: #fff;
+}
+.yellow{
+	background-color: #ffeb3b;
+}
+.orange{
+	background-color: #ff9800;
+}
+.red{
+	background-color: #f44336;
+	color: #fff;
+}
+.green{
+	background-color: #4CAF50;
+	color:  #fff;
+}
+a:-webkit-any-link:active {
+    color: -webkit-activelink;
+}
+a:-webkit-any-link {
+    
+    cursor: pointer;
+    text-decoration: none;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+
